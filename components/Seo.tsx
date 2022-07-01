@@ -13,7 +13,6 @@ export const Seo = ({ title, description }: Props) => {
       <meta name="description" content={description} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="google-site-verification" content="7zd-Cop1OZgN918aNRzjgRHcTQDAqXl31vFy0DGjifo" />
     </Head>
   );
 };
