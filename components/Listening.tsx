@@ -104,7 +104,7 @@ export const Listening: React.FC<Props> = (
           href={`https://open.spotify.com/track/${doing.spotify.track_id}`}
         >
           Listening to{" "}
-          <b className="text-black dark:text-white">{doing.spotify.album}</b> by{" "}
+          <b className="text-black dark:text-white">{doing.spotify.song}</b> by{" "}
           <b className="text-black dark:text-white">
             {doing.spotify.artist.replaceAll(";", ",")}
           </b>
