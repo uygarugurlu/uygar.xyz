@@ -9,7 +9,7 @@ export const Contact = () => {
       <Heading>Contact 💌</Heading>
       <Text>
         Be sure to shoot me a{" "}
-        <LinkTag href="https://twitter.com/uuygarugurlu" target="_blank">
+        <LinkTag href="https://twitter.com/uygarugurIu" target="_blank">
           DM on Twitter
         </LinkTag>
         .
