@@ -9,10 +9,10 @@ export const Links = () => {
       <LinkWrapper href="https://github.com/uygarugurlu">
         <FiGithub />
       </LinkWrapper>
-      <LinkWrapper href="https://twitter.com/uuygarugurlu">
+      <LinkWrapper href="https://twitter.com/uygarugurIu">
         <FiTwitter />
       </LinkWrapper>
-        <LinkWrapper href="https://instagram.com/uuygarugurlu">
+        <LinkWrapper href="https://instagram.com/uygarugurIu">
             <FiInstagram />
         </LinkWrapper>
     </div>
