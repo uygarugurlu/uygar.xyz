@@ -98,17 +98,18 @@ export const Listening: React.FC<Props> = (
     <a className="flex items-center mb-6 duration-300 text-gray-600 dark:text-gray-300 hover:opacity-50 cursor-pointer w-fit">
       <FaSpotify className="mr-2" />
       {doing?.listening_to_spotify ? (
-        <a
+          Listening to{" "}
+          // Redirect spotify listening track with a tags.
+          <a
           target="_blank"
           rel="noreferrer"
           href={`https://open.spotify.com/track/${doing.spotify.track_id}`}
-        >
-          Listening to{" "}
-          <b className="text-[#f54bff]">{doing.spotify.song}</b> by{" "}
+          >
+        <b className="text-[#f54bff]">{doing.spotify.song}</b> by{" "}
+        </a>
           <b className="text-[#f54bff]">
             {doing.spotify.artist.replaceAll(";", ",")}
           </b>
-        </a>
       ) : (
         <div>Not listening to anything...</div>
       )}
