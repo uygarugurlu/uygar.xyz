@@ -12,7 +12,7 @@ export const Links = () => {
       <LinkWrapper href="https://twitter.com/uygarugurIu">
         <FiTwitter />
       </LinkWrapper>
-        <LinkWrapper href="https://instagram.com/uygarugurIu">
+        <LinkWrapper href="https://instagram.com/uuygarugurlu">
             <FiInstagram />
         </LinkWrapper>
     </div>
